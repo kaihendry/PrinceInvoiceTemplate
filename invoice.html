@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Little guy invoice</title>
+</head>
+<body>
+
+<!-- Does not render well -->
+<img src="logo.png"/>
+
+<h1>Invoice</h1>
+
+<dl>
+	<dt>Order number</dt>
+	<dd>ACME1</dd>
+	<dt>Date</dt>
+	<dd><script>document.write(new Date().toString());</script></dd>
+
+</dl>
+
+<ul id="invoicee">
+<li>Acme Ltd</li>
+<li>2 Corporate Grove</li>
+<li>London</li>
+</ul>
+
+<br>
+<br>
+<br>
+<table>
+
+	<tr>
+		<th>Description</th>
+		<th>Working days</th>
+		<th>Rate</th>
+		<th>Total (EUR)</th>
+	</tr>
+
+	<tr>
+		<td>Services 7-11/11/2011</td>
+		<td>5</td>
+		<td>100</td>
+		<td>500</td>
+	</tr>
+
+
+	<tr>
+		<td>VAT</td>
+		<td></td>
+		<td>20%</td>
+		<td>100</td>
+	</tr>
+
+	<tr>
+		<td>Total</td>
+		<td></td>
+		<td></td>
+		<td id="total">600</td>
+	</tr>
+
+</table>
+
+<ul id="companyinfo">
+<li>Little guy Limited, Company No. 111111</li>
+<li>Registered address:  Fictional Farm, Millpool, Cornwall, PL30 4HZ, UK</li>
+<li>Bank account: 20-73-20 9999999</li>
+<li>Bank address: Barclays Bank PLC, Leicester, LE87 2BB, UK</li>
+<li>Tax registration number: 444 3333 22</li>
+<li><a href="mailto:sales@example.com">sales@example.com</li>
+<li><a href="http://example.com">http://example.com</a></li>
+</ul>
+
+</body>
+</html>
