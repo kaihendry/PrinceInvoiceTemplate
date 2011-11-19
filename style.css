@@ -5,6 +5,8 @@ h1, h2, h3, h4, h5, h6  { font-family: Gentium, Georgia, serif; }
 h1                  { font-size: 2.5em; }
 h2                  { margin: 0em; }
 
+img { max-width: 100% }
+
 #invoicee { border: thick double #949d65; border-radius: 1.5em; padding: 1em; max-width: 20em; height: 6em; }
 
 #total { border-top: thick solid #949d65; }

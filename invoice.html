@@ -16,7 +16,7 @@
 	<dt>Order number</dt>
 	<dd>ACME1</dd>
 	<dt>Date</dt>
-	<dd><script>document.write(new Date().toString());</script></dd>
+	<dd id="timestamp"></dd>
 
 </dl>
 
@@ -71,6 +71,10 @@
 <li><a href="mailto:sales@example.com">sales@example.com</li>
 <li><a href="http://example.com">http://example.com</a></li>
 </ul>
+
+<script>
+document.getElementById("timestamp").appendChild(document.createTextNode("foobar"));
+</script>
 
 </body>
 </html>
