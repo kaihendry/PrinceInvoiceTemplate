@@ -1,7 +1,7 @@
 all: show
 
 invoice.pdf: invoice.html style.css logo.png
-	prince invoice.html
+	prince --javascript invoice.html
 
 show: invoice.pdf
 	xpdf invoice.pdf
